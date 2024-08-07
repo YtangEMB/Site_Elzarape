@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El Zarape</title>
+        <link href="CatalogosCSS.css" rel="stylesheet" type="text/css"/>
+        <link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <img src="../Media/Logo ElZarape SF.png" alt=""/>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <img class="offcanvas-title" src="../Media/Logo ElZarape SF.png" alt=""/>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link  ex-lg-2" aria-current="page" href="../MenuPrincipal.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="Alimentos.html" >Platillos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  ex-lg-2" href="Bebidas.html">Bebidas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  ex-lg-2" href="Combos.html">Combos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div  class="comanda-container">
+                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                </div>
+                <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="banner-alimentos">
+            <div class='content-banner'>
+                <h2>Platillos</h2>
+            </div>
+        </div>
+        <div class="container-menu">
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/Tostada.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Tostadas</h3>
+                        <p>Antojito típico mexicano elaborado a partir de diferentes guisos sobre una tortilla de maíz crujiente o tostada</p>
+                        <p class="price">$30</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/EnchiladasR.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Enchiladas rojas</h3>
+                        <p>Es un típico plato mexicano que se elabora con tortilla de maíz, bañada en una salsa roja.</p>
+                        <p class="price">$80</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/Huevos.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Huevos Revueltos</h3>
+                        <p>Huevos de gallina ligeramente batidos y cocinados en una sartén con aceite o mantequilla hasta que cuaja.</p>
+                        <p class="price">$30</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/Sopes.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Sopes</h3>
+                        <p>Tortilla gruesa de maíz a la que se le embarra frijol refrito, para después cubrir con otros ingredientes.</p>
+                        <p class="price">$90</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/EnchiladasV.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Enchiladas verdes</h3>
+                        <p>Es un típico plato mexicano que se elabora con tortilla de maíz, bañada en una salsa verde.</p>
+                        <p class="price">$80</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/HotCakes.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Hotcakes</h3>
+                        <p>Pan plano redondo dulce, cuya masa base contiene usualmente leche, mantequilla, huevos, harina de trigo, levadura, azúcar, sal y esencia o saborizantes.</p>
+                        <p class="price">$60</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/Quesadillas.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Quesadillas</h3>
+                        <p>Es un platillo mexicano que consiste en una tortilla de maíz, o también de trigo con queso y doblada por la mitad.</p>
+                        <p class="price">$35</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/Chilaquiles.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Chilaquiles</h3>
+                        <p>Tortillas de maíz, cortadas en tiras o triángulos, fritas y, posteriormente, cocidas en salsa de chile.</p>
+                        <p class="price">$80</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/Tortas.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Torta</h3>
+                        <p>Bollilo relleno de jamón, queso, crema, chile y mayonesa.</p>
+                        <p class="price">$40</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/Tamal.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Tamales</h3>
+                        <p>Hecho a base de maíz, relleno de diversos ingredientes, cocido en un paquete de hojas vegetales.</p>
+                        <p class="price">$35</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/Menudo.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Menudo</h3>
+                        <p>Guiso caldoso elaborado con trozos de estómago de res, jitomate y chile guajillo.</p>
+                        <p class="price">$80</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Alimentos/Bistec.png" alt=""/>
+                    <div class="menu-item-content">
+                        <h3>Bistec</h3>
+                        <p>Carne de res picada en pequeñas partes y cocinada con cebolla, jitomate y chile.</p>
+                        <p class="price">$60</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line">
+            <br><br><br>
+        </div>
+        <script src="../style/js/bootstrap.bundle.js" type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/2a1d3ed1a9.js" crossorigin="anonymous"></script>   
+    </body>
+</html>

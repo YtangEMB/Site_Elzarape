@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menú De Bebidas </title>
+        <link href="CatalogosCSS.css" rel="stylesheet" type="text/css"/>
+        <link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <img src="../Media/Logo ElZarape SF.png" alt=""/>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <img class="offcanvas-title" src="../Media/Logo ElZarape SF.png" alt=""/>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link  ex-lg-2" aria-current="page" href="../MenuPrincipal.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  ex-lg-2" href="Alimentos.html" >Platillos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="Bebidas.html">Bebidas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  ex-lg-2" href="Combos.html">Combos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div  class="comanda-container">
+                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                </div>
+                <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="banner-bebidas">
+            <div class='content-banner'>
+                <h2>Bebidas</h2>
+            </div>
+        </div>
+        <div class="container-menu">
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/Chocomilk.png" alt="" style="width: 150px; height: 200px; margin-left: 50px"/>
+                    <div class="menu-item-content">
+                        <h3>Chocomilk</h3>
+                        <p>Bebida elaborada a partir de cacao.</p>
+                        <p class="price">$15</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/Agua.png" alt="" style="width: 150px; height: 200px; margin-left: 50px"/>
+                    <div class="menu-item-content">
+                        <h3>Agua</h3>
+                        <p>Botella de agua natural de 600ml.</p>
+                        <p class="price">$12</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/Licuado.png" alt="" style="width: 130px; height: 200px; margin-left: 50px"/>
+                    <div class="menu-item-content">
+                        <h3>Licuado</h3>
+                        <p>Licuados de Fresa,Cacao,Platano,Mango.</p>
+                        <p class="price">$30</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/CafeA.png" alt="" style="width: 150px; height: 200px; margin-left: 50px"/>
+                    <div class="menu-item-content">
+                        <h3>Cafe Americano</h3>
+                        <p>Elaborado a apartir de grano de cafe traido de catemaco.</p>
+                        <p class="price">$25</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/JugoNr.png" alt="" style="width: 170px; height: 200px; margin-left: 30px"/>
+                    <div class="menu-item-content">
+                        <h3>Jugo de Naranja</h3>
+                        <p>Jugo Elaborado apartir de Naranja natural.</p>
+                        <p class="price">$15</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/Michelada.png" alt="" style="width: 200px; height: 200px"/>
+                    <div class="menu-item-content">
+                        <h3>Michelada</h3>
+                        <p>Bebida con alchol elaborada a partir de clamato cerveza de su preferencia chay y chile en polvo y limon. </p>
+                        <p class="price">$30</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/Coca.png" alt="" style="width: 200px; height: 200px"/>
+                    <div class="menu-item-content">
+                        <h3>Coca Cola</h3>
+                        <p>Bebida gasificada de 600ml.</p>
+                        <p class="price">$20</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/JugoVr.png" alt="" style="width: 200px; height: 200px"/>
+                    <div class="menu-item-content">
+                        <h3>Jugo Verde</h3>
+                        <p>Jugo elaborado a partir de Naranja,Zanahoria,Betabel,<br>Apio,Espinaca,Nopal.</p>
+                        <p class="price">$15</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/Naranjada.png" alt="" style="width: 70px; height: 200px; margin-left: 70px"/>
+                    <div class="menu-item-content" style="margin-left: 60px">
+                        <h3>Naranjada</h3>
+                        <p>Bebida gasificada de naranja de 600ml.</p>
+                        <p class="price">$20</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/Fresca.png" alt="" style="width: 70px; height: 200px; margin-left: 70px"/>
+                    <div class="menu-item-content" style="margin-left: 60px">                       
+                        <h3>Fresca</h3>
+                        <p>Bebida gasificada de Limon y Toronja de 600ml.</p>
+                        <p class="price">$20</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item"> 
+                    <img src="../MEDIA/Bebidas/Limonada.png" alt="" style="width: 180px; height: 200px; margin-left: 20px"/>
+                    <div class="menu-item-content">                   
+                        <h3>Limonada</h3>
+                        <p>Bebida elaborada apartir de jugo de limon y azucar.</p>
+                        <p class="price">$15</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../MEDIA/Bebidas/CafeOL.png" alt=""/>
+                    <div class="menu-item-content">                       
+                        <h3>Cafe de olla</h3>
+                        <p>Elaborado en una olla de barro con especias de yucatan y grano de cafe de catemaco.</p>
+                        <p class="price">$25</p>
+                        <input type="number" id="quantity" name="quantity" class="form-control" min="1" value="1" style="width: 60px; height: 40px;" required>
+                        <button class="btn">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line">
+            <br><br><br>
+        </div>
+        <script src="../style/js/bootstrap.bundle.js" type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/2a1d3ed1a9.js" crossorigin="anonymous"></script> 
+    </body>
+</html>

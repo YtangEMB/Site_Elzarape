@@ -1,0 +1,131 @@
+body {
+    font-family: Arial black, sans-serif;
+    background-color: #FEF3E2;
+    color: #333;
+    margin: 0;
+}
+.navbar {
+    background-color: #FA812F;
+    height: 80px;
+    margin: 28px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.container-fluid img {
+    width: 90px;
+    height: 70px;
+}
+
+.login-button {
+    background-color: #FAAF08;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover {
+    background-color: #6c757d;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+    background-color: #FA812F;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #6c757d;
+    font-weight: 500;
+    position: relative;
+}
+
+.offcanvas-body a  {
+    font-size: 22px;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: black;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #FAAF08;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.banner {
+    background-image: linear-gradient(100deg, #000000, #00000010), url('MEDIA/Banner.jpg');
+    height: 56.5rem;
+    background-size: cover;
+    background-position: center;
+}
+.content-banner {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 15rem 0;
+}
+.content-banner p{
+    color: #FA812F;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.content-banner h2{
+    color: #FEF3E2;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.content-banner a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #FEF3E2;
+    background-color: #FA812F;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+}
+.content-banner img{
+    width: 200px;
+    height: 160px;
+
+}
+.line {
+    width: 100%;
+    background-color: #FA812F;
+    padding: 14px 0;
+    font-size: 15px;
+}
+.comanda-container {
+    margin-right: 20px;
+}
+.offcanvas-header {
+    background-color: #FA812F;
+}
+.offcanvas-body {
+    background-color: #FA812F;
+}
